@@ -1,4 +1,4 @@
-package com.crm.qa.util;
+/*package com.crm.qa.util;
 /*************************************** PURPOSE **********************************
 
  - This class implements the WebDriverEventListener, which is included under events.
@@ -10,7 +10,7 @@ package com.crm.qa.util;
 
  */
 
-import java.io.IOException;
+/*import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -82,7 +82,7 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	/*
 	 * non overridden methods of WebListener class
 	 */
-	public void beforeScript(String script, WebDriver driver) {
+	/*public void beforeScript(String script, WebDriver driver) {
 	}
 
 	public void afterScript(String script, WebDriver driver) {
@@ -151,11 +151,11 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	public void beforeGetText(WebElement arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
 		
-	}
+	}*/
 
-	public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
+	/*public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
 		
-	}
+	}*/
 
-}
+}*/
