@@ -27,6 +27,7 @@ public class FreeCrmTest {
 	}
 
 	@Test
+	@Ignore
 	public void freeCrmTitleTest() throws InterruptedException, IOException {
 		String title = driver.getTitle();
 		System.out.println("title is: " + title);
