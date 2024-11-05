@@ -1,4 +1,4 @@
-/*package com.crm.qa.util;
+/*package com.crm.qa.util;*/
 /*************************************** PURPOSE **********************************
 
  - This class implements the WebDriverEventListener, which is included under events.
@@ -6,9 +6,9 @@
  which would be displayed/logged as the application under test is being run.
 
  Do not call any of these methods, instead these methods will be invoked automatically
- as an when the action done (click, findBy etc). 
+ as an when the action done (click, findBy etc). */
 
- */
+ 
 
 /*import java.io.IOException;
 
@@ -18,11 +18,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-import com.crm.qa.base.TestBase;
+import com.crm.qa.base.TestBase;*/
 
-public class WebEventListener extends TestBase implements WebDriverEventListener {
+/*public class WebEventListener extends TestBase implements WebDriverEventListener {
 
-	public void beforeNavigateTo(String url, WebDriver driver) {
+	/*public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("Before navigating to: '" + url + "'");
 	}
 
@@ -77,7 +77,7 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 
 	public void afterFindBy(By by, WebElement element, WebDriver driver) {
 		System.out.println("Found Element By : " + by.toString());
-	}
+	}*/
 
 	/*
 	 * non overridden methods of WebListener class
@@ -151,9 +151,9 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	public void beforeGetText(WebElement arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
 		
-	}*/
+	}
 
-	/*public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
+	public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
 		
 	}*/
